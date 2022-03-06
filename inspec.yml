@@ -13,6 +13,12 @@ depends:
   url: https://github.com/mitre/redhat-enterprise-linux-7-stig-baseline/archive/master.tar.gz
 
 inputs:
+- name: min_len
+  description: V-71935 minimum number of password characters
+  type: Numeric
+  value: 19
+  profile: redhat-enterprise-linux-7-stig-baseline
+  
 # - name: unsuccessful_attempts
 #   description: V-71943 The number of unsuccessful login attempts within a certain interval before lockout.
 #   type: numeric
