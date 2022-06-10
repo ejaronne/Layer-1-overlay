@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-include_controls "redhat-enterprise-linux-7-stig-baseline" do
+include_controls "rhel7-STIG-small-baseline" do
   
   control "V-71933" do
     impact 0.0
